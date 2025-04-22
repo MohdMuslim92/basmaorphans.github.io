@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Under Maintenance</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #2b5876, #4e4376);
+      color: white;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+    }
+    img {
+      max-width: 150px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Organization Logo" />
+    <h1>We'll Be Right Back!</h1>
+    <p>Our website is currently undergoing scheduled maintenance.<br>Please check back soon.</p>
+  </div>
+</body>
+</html>
