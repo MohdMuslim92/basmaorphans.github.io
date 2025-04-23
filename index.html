@@ -18,8 +18,21 @@
       text-align: center;
       height: 100vh;
       background: linear-gradient(135deg, #2b5876, #4e4376);
+      background-size: 400% 400%;
+      animation: glowingBackground 8s ease-in-out infinite;
       color: white;
       padding: 20px;
+    }
+    @keyframes glowingBackground {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
     }
     .container {
       max-width: 600px;
